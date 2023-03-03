@@ -1,0 +1,13 @@
+#animation-line {
+        animation: line-animation 5000ms linear infinite normal forwards
+    }
+
+
+
+@keyframes line-animation { 
+    0% {stroke-dashoffset: 1;
+      animation-timing-function: cubic-bezier(0.420000,0,0.580000,1)} 
+    40% {stroke-dashoffset: 0} 
+    80% {stroke-dashoffset: 0;animation-timing-function: cubic-bezier(0.420000,0,0.580000,1)
+    } 
+    100% {stroke-dashoffset: 1} }
